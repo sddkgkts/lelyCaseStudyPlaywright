@@ -1,0 +1,20 @@
+{
+    "name": "lelycasestudy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx playwright test",
+        "test:ui": "npx playwright test --project='UI Tests - Chromium'",
+        "test:api": "npx playwright test --project='API Tests'"
+    },
+    "author": "sddk",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.49.1",
+        "@types/node": "^22.10.1"
+    },
+    "dependencies": {
+        "axios": "^1.7.9"
+    }
+}
